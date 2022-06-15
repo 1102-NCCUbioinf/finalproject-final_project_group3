@@ -1,9 +1,8 @@
 # Title of your paper
 ### Members
-* name, student ID1
-* name, student ID2
-* name, student ID3
-* ...
+* 章峻福 110753503
+* 葉冠宏 student ID2
+
 
 ### Demo 
 You might provide an example commend or few commends to reproduce your analysis
