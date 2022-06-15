@@ -1,24 +1,26 @@
-# Diagnostic potential for a serum miRNA neural network for detection of ovarian cancer
+# Paper3: Diagnostic potential for a serum miRNA neural network for detection of ovarian cancer
 
-### Members
+## Members
+Group 3:
 * 章峻福 110753503
 * 葉冠宏 108753208
 
+## Demo 
+### Method
+We follow the workflow mentioned in the paper as follows: 
+![work](https://user-images.githubusercontent.com/20900157/173859171-a7bf182a-aa6f-4e75-ba98-b911da077f84.png)
 
-### Demo 
-
-## Feature
+### Feature
 We use the following features selected by each of the methods mentioned in the paper plus the feature "Age" to reproduce the result.
 ![fea](https://user-images.githubusercontent.com/20900157/173857391-b0dcdb29-3df2-4a79-a003-4d81819c2da7.png)
 
-## Result
+### Result
 峻福part:
 ![demo](https://user-images.githubusercontent.com/101028862/173810804-07ebd881-ef35-4fb1-92ff-416452a7c249.png)
 
 冠宏part:
 ![demo2](https://user-images.githubusercontent.com/20900157/173848824-c84ddb3f-a8f5-4fb3-8166-dadefb86b7f8.png)
 ## Folder organization and its related information
-
 ### docs
 峻福part:
 * rminer: the R package user guide. We use its automated machine learning functions to solve the multi-class classification problem
