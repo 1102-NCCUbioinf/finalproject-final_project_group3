@@ -6,6 +6,10 @@
 
 
 ### Demo 
+We use the following features selected by each of the methods mentioned in the paper plus the feature "Age" to reproduce the result.
+![fea](https://user-images.githubusercontent.com/20900157/173857391-b0dcdb29-3df2-4a79-a003-4d81819c2da7.png)
+
+
 峻福part:
 ![demo](https://user-images.githubusercontent.com/101028862/173810804-07ebd881-ef35-4fb1-92ff-416452a7c249.png)
 
