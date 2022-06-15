@@ -18,7 +18,7 @@ We use the following features selected by each of the methods mentioned in the p
 峻福part:
 ![demo](https://user-images.githubusercontent.com/101028862/173810804-07ebd881-ef35-4fb1-92ff-416452a7c249.png)
 
-冠宏part:
+冠宏part:(Note: the number means AUC.)
 ![demo2](https://user-images.githubusercontent.com/20900157/173848824-c84ddb3f-a8f5-4fb3-8166-dadefb86b7f8.png)
 ## Folder organization and its related information
 ### docs
