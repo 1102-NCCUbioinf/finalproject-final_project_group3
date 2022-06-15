@@ -20,7 +20,7 @@
 * 2 papers: the one paper talks about NormiRazor package how to implement NormFinder algorithm on GPU; the other one compare the performance of 8 AutoML tool.
 
 冠宏part:
-*sklearn: the python package that includes implementation of models mentioned in the paper. The following models are what we implemented:
+* sklearn: the python package that includes implementation of models mentioned in the paper. The following models are what we implemented:
 Linear discriminant analysis,Logistic regression,Neural network,Support vector machine,Naive Bayes classifier,Random forest
 
 ### data
