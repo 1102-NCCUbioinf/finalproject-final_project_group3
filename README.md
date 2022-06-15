@@ -1,5 +1,4 @@
 # Diagnostic potential for a serum miRNA neural network for detection of ovarian cancer
-![image](https://user-images.githubusercontent.com/101028862/173796111-e3a27eef-4436-431e-8676-dc45c3424cfb.png)
 
 ### Members
 * 章峻福 110753503
@@ -7,7 +6,7 @@
 
 
 ### Demo 
-You might provide an example commend or few commends to reproduce your analysis
+
 ![demo](https://user-images.githubusercontent.com/101028862/173810804-07ebd881-ef35-4fb1-92ff-416452a7c249.png)
 
 ## Folder organization and its related information
