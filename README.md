@@ -57,6 +57,7 @@ We use the following features selected by each of the methods mentioned in the p
 * Files:
   * 冠宏 part:
     * result.xlsx
+* Notes: We think that maybe we can try to use Rcpp package to call NormiRazor to implement NormFinder algorithm. 
 
 ## References
 * Packages you use
