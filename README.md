@@ -43,7 +43,7 @@ Linear discriminant analysis,Logistic regression,Neural network,Support vector m
 
 ## References
 * Packages you use
-* 冠宏part
+ * 冠宏part
   * sklearn
   * sklego
   * pgmpy.models
