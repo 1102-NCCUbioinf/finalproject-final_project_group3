@@ -31,22 +31,31 @@ Linear discriminant analysis,Logistic regression,Neural network,Support vector m
 ### code
 * Which packages do you use? 
   * Authors use STATISTICA software & Python to accomplished their results.
-  * We attempt to use R & related packages to reproduce results.
-   * Packages: openxlsx(read data), rminer(AutoML), sampling(Stratified random sampling), caret(automated feature seletion)    
+  * 峻福 attempt to use R & related packages to reproduce results.
+    * Packages: openxlsx(read data), rminer(AutoML), sampling(Stratified random sampling), caret(automated feature seletion)
+  * 冠宏 attempt to use Python & related packages to reproduce results.
+    * Packages: sklearn, sklego, pgmpy.models, pandas, numpy
 * Analysis steps: 2 step to remove our doubt 
  *  1. Why didn't use boosting ensemble models, such as XGBoost? --> we use rminer to compare 13 multi-class classification models by classification accuracy rate, weight True Positive rate and weighted F1 score. To make sure if boosting ensemble models perform well after tuning hyperparameters.   
  *  2. We found that the rfe function provided by the caret R package could automatic select feature. The method is called Recursive Feature Elimination. To check whether this method could select similar miRNAs, compared by qPCR test results.   
 
 ### results
 * Which part of the paper do you reproduce?
+![show](https://user-images.githubusercontent.com/20900157/173854517-b541a288-1095-4be1-bc24-ee2c94e67121.png)
 * Any improvement or change by your package?
+  * 峻福 try to reproduce the result by automated machine learning functions.
 
 ## References
 * Packages you use
-  * 冠宏part
+  * 冠宏 part
     * sklearn
     * sklego
     * pgmpy.models
     * pandas
     * numpy
+  * 峻福 part
+    * openxlsx
+    * rminer
+    * sampling
+    * caret
 * Related publications
