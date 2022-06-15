@@ -15,12 +15,25 @@ s <- strata(dsetf,stratanames="Pathology",size=c(12,34,40,33,16),method="srswor"
 dset_train <- dsetf[row.names(dsetf) %in% s$ID_unit,]
 dset_test <- dsetf[!(row.names(dsetf) %in% s$ID_unit),]
 
+#Check the fairness of random sampling data about train set & test set
+t.test(dset_train$Age, dset_test$Age)
+
+dd1 <- dset_train[,c(1,7)]
+dd1$CAT <- "Train"
+dd2 <- dset_test[,c(1,7)]
+dd2$CAT <- "Test"
+dd <- rbind(dd1,dd2)
+dd$Pathology <-factor(dd$Pathology,level=c("control","benign","borderline","I/II","III/IV"))
+dd2$CAT <- factor(dd2$CAT,level=c("Train","Test"))
+xtabs(~Pathology+CAT,data=dd)
+prob.table(xtabs(~Pathology+CAT,data=dd),margin=2)
+chisq.test(xtabs(~Pathology+CAT,data=dd))
 
 
 #automatic feature selection :  Recursive Feature Elimination
 #package : caret
 library(caret)
-
+d=dset_train[,c(6,8:200)]
 control <- rfeControl(functions=caretFuncs, method = "repeatedcv",repeats = 5)
 results <- rfe(d[,c(1,3:194)],d$outcome_cat,sizes=c(1:15), rfeControl=control)
 mirna_select <- row.names((results$fit)$importanceSD)
