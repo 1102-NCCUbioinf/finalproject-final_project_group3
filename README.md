@@ -8,7 +8,7 @@
 ### Demo 
 
 ![demo](https://user-images.githubusercontent.com/101028862/173810804-07ebd881-ef35-4fb1-92ff-416452a7c249.png)
-![demo2](https://github.com/1102-NCCUbioinf/finalproject-final_project_group3/issues/1#issue-1272301609)
+![demo2](https://user-images.githubusercontent.com/20900157/173848824-c84ddb3f-a8f5-4fb3-8166-dadefb86b7f8.png)
 ## Folder organization and its related information
 
 ### docs
