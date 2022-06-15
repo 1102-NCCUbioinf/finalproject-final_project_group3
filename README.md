@@ -43,4 +43,5 @@ Linear discriminant analysis,Logistic regression,Neural network,Support vector m
 
 ## References
 * Packages you use
+  * sklearn
 * Related publications
